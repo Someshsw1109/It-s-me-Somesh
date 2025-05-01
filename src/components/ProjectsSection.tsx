@@ -26,7 +26,7 @@ const projects: Project[] = [
     id: 2,
     title: "David",
     description: "A personal-assistant for windows-based systems with features.",
-    image: "https://private-user-images.githubusercontent.com/123828588/301793943-90bbd703-51d4-4136-a7df-167cce5f0328.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDYxMjgyMzEsIm5iZiI6MTc0NjEyNzkzMSwicGF0aCI6Ii8xMjM4Mjg1ODgvMzAxNzkzOTQzLTkwYmJkNzAzLTUxZDQtNDEzNi1hN2RmLTE2N2NjZTVmMDMyOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTAxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUwMVQxOTMyMTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNmZmNmM5ZmViZTJkNWE1MWY1MTgwYzAzMDZlYzMxNzVkMmNhNWI3ZGViYTI1YzllMGM4YjQxYzJiNmUzMGU3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZCb2BScLTMBk_1mbNX2Z1gbZ4XJ9D4VXSchW4mEGQJM",
+    image: "https://png.pngtree.com/png-vector/20231023/ourmid/pngtree-professional-virtual-assistant-3d-illustration-png-image_10313099.png",
     demoUrl: "https://github.com/Someshsw1109/My-Personal-Assistant--David",
     githubUrl: "https://github.com/Someshsw1109/My-Personal-Assistant--David",
     tags: ["Python", "Machine Learning", "Artificial Intelligence"]
