@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 171 100% 69.8%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark text-white font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-bold;
+  }
+
+  .highlight {
+    @apply text-highlight;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-6 py-20 md:py-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-10 relative inline-block;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply absolute left-0 -bottom-2 w-2/3 h-1 bg-highlight;
+  }
+
+  .nav-link {
+    @apply px-4 py-2 text-gray-300 hover:text-highlight transition-colors relative;
+  }
+
+  .nav-link.active::after {
+    content: '';
+    @apply absolute left-4 right-4 bottom-0 h-0.5 bg-highlight;
+  }
+
+  .project-card {
+    @apply relative bg-darker rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:shadow-highlight/20;
+  }
+
+  .skill-item {
+    @apply flex items-center justify-center bg-darker rounded-lg p-4 transition-all hover:text-highlight;
+  }
+
+  .contact-input {
+    @apply bg-darker text-white border-0 focus:ring-1 focus:ring-highlight rounded-md p-3 w-full;
+  }
+}
